@@ -12,7 +12,9 @@ YouTube: http://www.youtube.com/user/codingmath
 Support: http://www.patreon.com/codingmath
 
 ## Meta
-FullStack Developer (JavaScript Expert, Front End Developer, Product Manager): [Jonimar Marques Policarpo](http://linkedin.com/treedbox 'LinkEdin')
+[Jonimar Marques Policarpo](http://linkedin.com/treedbox 'LinkEdin')
+
+FullStack Developer (JavaScript Expert, Front End Developer, Product Manager)
 
 LinkEdin: [http://linkedin.com/treedbox](http://linkedin.com/treedbox)
 
