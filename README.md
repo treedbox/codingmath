@@ -1,5 +1,5 @@
 # Coding Math Experiments
-> **Coding Math** Experiments based on the **Keith Peters**'s series on YouTube: http://www.youtube.com/user/codingmath, Updated to **ES6/ES7** with an interface to navigation.
+> **Coding Math** Experiments based on the **Keith Peters**'s series on YouTube: http://www.youtube.com/user/codingmath. Updated to **ES8 (ES6, ES7)** with index and an interface to navigation.
 
 <a href="https://treedbox.github.io/codingmath/">![screenshot](assets/screenshot.png)</a>
 
