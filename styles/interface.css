@@ -1,0 +1,232 @@
+a.left,
+a.right,
+nav,
+a.reload{
+  background-color:#fff;
+  color: #000;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  opacity: .3;
+  position: absolute;
+  text-decoration:none;
+  transition:all .3s;
+  user-select: none;
+  width: 100px;
+  z-index: 2;
+}
+a.left{
+  background-image:url('../icons/left.svg');
+  background-position: bottom 17px left 10px;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  padding-left:20px;
+  right: 100px;
+  display: none;
+}
+a.right{
+  background-image:url('../icons/right.svg');
+  background-position: bottom 17px right 10px;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  padding-right:20px;
+  right: 0;
+}
+a.home{
+  background-color: #000;
+  background-image:url('../icons/lab.svg');
+  background-position: center top 5px;
+  background-repeat: no-repeat;
+  background-size: 140px auto;
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+.msg{
+  background-color:#fff;
+  line-height: 30px;
+  opacity: .3;
+  pointer-events:none;
+  position: absolute;
+  user-select: none;
+  width: 100%;
+  z-index: 1;
+}
+.msg:hover{
+  opacity: .7
+}
+a.left:hover,
+a.reload:hover,
+a.right:hover,
+nav:hover{
+  background-color:#fd0;
+  background-color:#ffdd00f5;
+  opacity: 1;
+}
+a.reload{
+  background-image:url('../icons/reload.svg');
+  background-position: bottom 17px center;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  display: none;
+  left: 100px;
+}
+a.left:hover{
+  background-position: bottom 17px left;
+}
+a.right:hover{
+  background-position: bottom 17px right;
+}
+a.reload:hover{
+  background-position: bottom 13px center;
+  background-size: 35px auto;
+}
+
+nav{
+  background-image:url('../icons/menu1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px auto;
+  font-size: 17px;
+  max-width: 500px;
+  overflow: hidden;
+  text-align: left;
+}
+nav header{
+  margin-top: 100px;
+  transition: all .3s;
+}
+nav:hover header{
+  margin-top: 0;
+}
+nav ul{
+  padding: 5px;
+}
+nav a,
+nav h1,
+nav input[name=filter],
+nav footer{
+  display: none;
+  line-height: 50px;
+  list-style: none;
+  padding:0 20px;
+}
+nav a.home{
+  overflow:hidden;
+}
+nav a.home,
+nav button{
+  display: none;
+}
+nav:hover a.home,
+nav:hover a,
+nav:hover h1,
+nav:hover input[name=filter],
+nav:hover button,
+nav:hover footer{
+  display: block;
+}
+nav:hover input[name=filter],
+nav:hover button{
+  display: inline-block;
+}
+nav:hover input[name=filter]{
+  border-radius: 50px;
+  transition: all .3s;
+  width:100%;
+}
+nav:hover input[name=filter]:active,
+nav:hover input[name=filter]:focus{
+  outline: transparent;
+}
+nav button{
+  background-color: #263238;
+  line-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  outline-color: transparent;
+  transition: all .3s;
+  float: right;
+  margin-top: -54px;
+  margin-right: 2px;
+  position: relative;
+}
+nav:hover button:hover{
+  background-color: #000;
+}
+nav:hover button:active{
+  background-color: #000;
+  transform: scale(.7)
+}
+nav:hover h1{
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  pointer-events: none;
+  text-align: center;
+}
+nav a{
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+nav li{
+  transition: all .3s;
+}
+nav li:hover{
+  background-color: #000;
+}
+nav li:hover a{
+  color: #fd0;
+}
+nav footer{
+  background-color: #000;
+  color: #fd0;
+  text-align: center;
+}
+nav:hover footer a{
+  color: #fd0;
+  display: inline-block;
+  transition: all .3s;
+}
+nav footer a:hover{
+  background-color: #fd0;
+  color: #000;
+}
+nav:hover a.home{
+  height: 200px;
+  padding-top: 150px;
+}
+nav:hover a.home:hover,
+nav:hover a.home:hover h1{
+  background-color: #fff;
+  color: #000;
+  transition: all .3s;
+}
+nav:hover a.home:hover{
+  background-position: center bottom 55px;
+}
+nav:hover{
+  background-image: none;
+  background-position: center;
+  background-size: 60px auto;
+  display: block;
+  height: 100%;
+  overflow-y: scroll;
+  width: calc(100% - 100px);
+}
+@media screen and (min-width: 400px) {
+  a.reload{
+    display: block;
+  }
+}
+@media screen and (min-width: 300px) {
+  a.left{
+    display: block;
+  }
+}

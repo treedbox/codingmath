@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="120.65mm" height="120.65mm" version="1.1" style="fill-rule:evenodd" viewBox="0 0 2735 2735">
+ <!-- by: Jonimar at treedbox.com -->
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil1 {fill:#000}
+   ]]>
+  </style>
+ </defs>
+ <g>
+  <rect class="fil0" transform="matrix(2.64845E-014 -1 1 2.64845E-014 0.000105441 2734.98)" width="2735" height="2735"/>
+  <g id="_591550784">
+   <rect class="fil1" transform="matrix(2.3604E-014 0.428736 -0.891236 1.13549E-014 2105.98 688.627)" width="792" height="1657"/>
+   <rect class="fil1" transform="matrix(2.3604E-014 0.428736 -0.891236 1.13549E-014 2105.98 1197.77)" width="792" height="1657"/>
+   <rect class="fil1" transform="matrix(2.3604E-014 0.428736 -0.891236 1.13549E-014 2105.98 1706.92)" width="792" height="1657"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name='author' content="Jonimar Marques Policarpo" />
+  <meta name='publisher' content="Treedbox.com" />
+  <title>Coding Math Experiments - Treedox</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/canvas.css">
+  <link rel="stylesheet" href="styles/interface.css">
+  <link rel="icon" href="icons/treedbox.png">
+  <link rel="icon" href="icons/treedbox.svg">
+</head>
+<body>
+  <header>
+    <a href="#" class="left" title="Go to previous"></a>
+    <a href class="reload" title="Reload this page"></a>
+    <a href="#" class="right" title="Go to next"></a>
+    <div class="msg"></div>
+  </header>
+  <nav>
+    <header>
+      <a href="#0" class="home" title="Coding Math Experiments">
+        <h1>Coding Math Experiments</h1>
+      </a>
+    </header>
+    <label>
+      <input name="filter" value="" placeholder="Filter" title="Filter menu list">
+      <button type="button" name="clear" title="Clear Filter">X</button>
+    </label>
+    <ul>
+    </ul>
+    <footer>
+      On <a class="github" href="https://github.com/treedbox/codingmath" title="See the code on Github" target="_blank"> GitHub </a>
+      by: <a class="treedbox" href="http://linkedin.com/in/treedbox" title="Jonimar's profile on LinkEdin" target="_blank"> Treedbox </a>
+    </footer>
+    <br>
+  </nav>
+  <canvas></canvas>
+  <!-- Treedbox Modules -->
+  <script src="modules/canvas.js"></script>
+  <script src="modules/random-color.js"></script>
+  <script src="modules/interface.js"></script>
+  <!-- Coding Math Modules -->
+  <script src="modules/utils.js"></script>
+  <script src="modules/vector.js"></script>
+  <script src="modules/particle.js"></script>
+  <script src="modules/arm.js"></script>
+  <script src="modules/armInverse.js"></script>
+  <script src="modules/fksystem.js"></script>
+  <script src="modules/iksystem.js"></script>
+  <!-- External libraries -->
+  <script src="modules/mersenne-twister.js"></script>
+  <script src="modules/seedrandom.min.js"></script>
+  <div class="loader"></div>
+</body>
+</html>

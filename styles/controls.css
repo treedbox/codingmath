@@ -1,0 +1,12 @@
+.controls {
+  position: absolute;
+  top: 60px;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 20px;
+  z-index: 1;
+  width: 140px;
+  font-family: sans-serif;
+}
+.controls input{
+  width: 100%
+}

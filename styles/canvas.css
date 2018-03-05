@@ -1,0 +1,9 @@
+canvas{
+  display: block;
+  overflow: hidden;
+  background-color:transparent;
+  position: absolute;
+	top: 0px;
+	left: 0px;
+  transition: all .3s;
+}

@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after{
+  box-sizing:border-box;
+}
+html,body{
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+html{
+  touch-action:manipulation;
+}
+body{
+  background-color:#000;
+  text-align:center;
+  perspective: 100px;
+  font-family: arial;
+}
+h1{
+  color:#263238;
+}
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+/*track size*/
+::-webkit-scrollbar-track-piece{
+  background: transparent;
+}
+/*point of localization*/
+::-webkit-scrollbar-thumb{
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+/*corner between bottom bar and side bar*/
+::-webkit-scrollbar-corner{
+  background: rgba(0,0,0,1);
+}
+
+.treedbox{
+  padding-left: 60px;
+  background-image:url('../icons/treedbox.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.github{
+  padding-left: 60px;
+  background-image:url('../icons/github.svg');
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: left 5px top;
+}
+.github:hover{
+  background-image:url('../icons/code.svg');
+  background-position: left 5px bottom;
+}
